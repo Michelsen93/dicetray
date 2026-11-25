@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dice Tray Privacy</title>
+<style>
+/* Layout: a single readable column, like a plain legal page. */
+:root { --bg: #ffffff; --fg: #1d211f; --muted: #5d6661; --accent: #2f6b4f; --line: #e3e7e4; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #101915; --fg: #efe6d2; --muted: #a3ae9f; --accent: #8fd3a8; --line: #2b3b32; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #101915; --fg: #efe6d2; --muted: #a3ae9f; --accent: #8fd3a8; --line: #2b3b32; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; }
+h1 { font-size: 30px; line-height: 1.15; margin: 0; }
+h2 { font-size: 19px; margin: 12px 0 0; }
+p, ul { margin: 0; }
+ul { padding-left: 20px; display: grid; gap: 4px; }
+.meta { color: var(--muted); font-size: 14px; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dice Tray privacy policy</h1>
+  <p class="meta">Last updated 25 November 2026. Applies to the Dice Tray app (app.dicetray) on iOS, Android and the web.</p>
+
+  <h2>Short version</h2>
+  <p>Dice Tray doesn't collect, store or share any personal data. There are no accounts, no ads, no analytics and no tracking. Everything the app remembers stays on your device. The only thing that leaves it is a check of which styles you have bought (see Purchases).</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>Your saved rolls, roll history and settings (sound, vibration, dice and tray style).</li>
+    <li>How many dice you've thrown, which unlocks milestone styles.</li>
+  </ul>
+  <p>This is kept in the app's local storage on your phone or browser and is never sent to us. Uninstalling the app, or clearing its data, deletes it.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No sign-in and no account.</li>
+    <li>No advertising and no advertising ID.</li>
+    <li>No analytics, crash reporting or tracking SDKs.</li>
+    <li>No location, contacts, camera, microphone or photos.</li>
+    <li>No selling or sharing of data with anyone.</li>
+  </ul>
+
+  <h2>Purchases</h2>
+  <p>Some dice and tray styles are sold as optional in-app purchases. Payments are handled by Apple's App Store or Google Play under their own privacy policies, and we never see your payment details. The app uses RevenueCat (revenuecat.com), a service provider, to check which styles you own and to restore them. RevenueCat receives a random app user ID created on your device, your purchase receipts and basic device information such as the app version and country of your store account. It gets nothing that identifies you by name, and it is not used for ads or tracking. RevenueCat's own privacy policy is at revenuecat.com/privacy.</p>
+
+  <h2>Children</h2>
+  <p>Dice Tray is meant for people aged 13 and over. It doesn't knowingly collect any data from anyone, including children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we'll update this page and the date at the top.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <span id="contact">dev.michelsen@gmail.com</span></p>
+</main>
+</body>
+</html>
